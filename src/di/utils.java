@@ -15,7 +15,7 @@ public class utils {
 		try{
 			
 			 
-			BufferedReader br = new BufferedReader(new FileReader(System.getProperty("user.dir") +  "/src/messages/file.txt"));
+			BufferedReader br = new BufferedReader(new FileReader(System.getProperty("user.dir") +  "/src/messages/" + filename));
 			
 			try {
 				

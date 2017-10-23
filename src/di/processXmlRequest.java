@@ -8,8 +8,6 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 
 public class processXmlRequest {
-
-	private utils ut = new utils();
 	
 	public static boolean processResponse(String msgType) {
 		

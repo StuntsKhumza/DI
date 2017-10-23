@@ -1,15 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
-	<soapenv:Body>
-		<ser-root:initialInstructionResponse xmlns:ser-root="http://www.investec.co.za/InvestecDealServices" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<initialInstructionResponse>
-				<status>Error</status>
-				<Id>fc2834ef-0838-4dbc-8154-964d1f725b91</Id>
-				<reason>System.Exception: Matter already exists for unique reference: 3C72E3783DC2E8D1422581BE001CFBFD
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ser-root:initialInstructionResponse xmlns:ser-root="http://www.investec.co.za/InvestecDealServices" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><initialInstructionResponse><Id>fc2834ef-0838-4dbc-8154-964d1f725b91</Id><status>Error</status><reason>System.Exception: Matter already exists for unique reference: 3C72E3783DC2E8D1422581BE001CFBFD
    at Law.PropertyStudio.MTImporter.Client.Investec.MessageTypes.Mt1.BeforeTransform() in c:\Builds\6\e4\RB_Investec.Registrations\src\Investec.Reg\Law.PropertyStudio.MTImporter\Client\Investec\MessageTypes\Mt1.cs:line 32
    at Law.PropertyStudio.MTImporter.Client.MtBase`1.Import() in c:\Builds\6\e4\RB_Investec.Registrations\src\Investec.Reg\Law.PropertyStudio.MTImporter\Client\MtBase.cs:line 144
-   at Law.PropertyStudio.Services.MessageImporters.Base.Importer`1.Import(String xmlData, Int32 suiteId, Int32 messageTypeId, String uniqueReference, String lawReference, Int32 customerBranchLun, Int32 institutionBranchLun, Int32 institutionUserLun, Boolean isGlobalMessage) in c:\Builds\6\e4\RB_Investec.Registrations\src\Investec.Reg\Investec.Reg.PsServices\MessageImporters\Base\Importer.cs:line 42</reason>
-			</initialInstructionResponse>
-		</ser-root:initialInstructionResponse>
-	</soapenv:Body>
-</soapenv:Envelope>
+   at Law.PropertyStudio.Services.MessageImporters.Base.Importer`1.Import(String xmlData, Int32 suiteId, Int32 messageTypeId, String uniqueReference, String lawReference, Int32 customerBranchLun, Int32 institutionBranchLun, Int32 institutionUserLun, Boolean isGlobalMessage) in c:\Builds\6\e4\RB_Investec.Registrations\src\Investec.Reg\Investec.Reg.PsServices\MessageImporters\Base\Importer.cs:line 42</reason></initialInstructionResponse></ser-root:initialInstructionResponse></soapenv:Body></soapenv:Envelope>
